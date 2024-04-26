@@ -263,4 +263,12 @@ public partial class FluentTabs : FluentComponentBase
         });
 
     }
+
+    /// <summary>
+    /// Clear the tabs array
+    /// </summary>
+    public async Task ClearTabs()
+    {
+        _tabs.Clear();
+    }
 }
